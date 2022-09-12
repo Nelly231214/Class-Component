@@ -1,38 +1,8 @@
-.App {
-  text-align: center;
+*{padding: 0;margin: 0}body{background-color: red;height: 100vh;display: flex;justify-content: center;align-items: center}.card{width: 350px;height: 460px;box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);border-radius: 20px;background-color: #fff;padding: 20px;position: relative}.task_inputs{width: 100%;display: flex;gap: 10px}.content span{display: flex;justify-content: center;align-items: center;font-size: 12px;color: #fff}.task_inputs input{width: 100%;box-sizing: border-box;height: 45px;padding: 0px 10px;border: 2px solid #eee;border-radius: 3px;transition: all 1s}.task_inputs button{width: 120px;height: 45px;border: none;background-color: #590C69;font-size: 16px;color: #FFF;cursor: pointer;border-radius: 3px}.strike-none{text-decoration: none}.item_list{list-style: none;margin-top: 30px}.item_list li{padding: 15px 10px;display: flex;justify-content: space-between;align-items: center;border-top: 2px solid #eee}.item_list li .content{display: flex;align-items: center;gap: 10px}.content span{display: flex;height: 25px;width: 25px;border: 2px solid #ccc;border-radius: 50%;margin-top: 2px;cursor: pointer}.content span.active{background-color: green}.delete{height: 25px;width: 25px;background: #ccc;display: flex;justify-content: center;align-items: center;cursor: pointer;border-radius: 50%;font-size: 13px}
+* body{
+  background-color: rgb(146, 204, 92);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
